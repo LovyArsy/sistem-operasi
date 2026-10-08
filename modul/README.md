@@ -4,11 +4,11 @@
 ### Identitas Praktikan
 | Item | Keterangan |
 |------|------------|
-| **Nama** | [Isi Nama Anda] |
-| **NIM** | [Isi NIM Anda] |
-| **Kelas** | [Isi Kelas Anda] |
-| **Asisten Praktikum** | [Isi Nama Asisten Anda] |
-| **Tanggal Praktikum** | [Isi Tanggal Praktikum] |
+| **Nama** | [Lovy Armanda Rossy] |
+| **NIM** | [108072500049] |
+| **Kelas** | [IF 05-04] |
+| **Asisten Praktikum** | [Nuevalen Refitra Alswando] |
+| **Tanggal Praktikum** | [25-09-2026] |
 
 ---
 
