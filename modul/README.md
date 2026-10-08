@@ -66,7 +66,7 @@ Tahapan yang terjadi adalah:
 
 Proses ini menunjukkan bahwa perangkat target tidak memerlukan media penyimpanan lokal untuk menjalankan sistem operasi, karena semua file boot diambil dari jaringan.
 
-![Booting Backend VM](asset/xinu5.jpg)
+![Booting Backend VM](asset/xinu5.png)
 
 *Gambar 2: Tampilan Backend VM saat melakukan booting melalui jaringan (PXE) dan memuat GRUB.*
 
