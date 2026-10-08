@@ -4,11 +4,11 @@
 ### Identitas Praktikan
 | Item | Keterangan |
 |------|------------|
-| **Nama** | [Lovy Armanda Rossy] |
-| **NIM** | [108072500049] |
-| **Kelas** | [IF 05-04] |
-| **Asisten Praktikum** | [Nuevalen Refitra Alswando] |
-| **Tanggal Praktikum** | [25-09-2026] |
+| **Nama** | Lovy Armanda Rossy |
+| **NIM** | 108072500049 |
+| **Kelas** | IF 05-04 |
+| **Asisten Praktikum** | Nuevalen Refitra Alswando |
+| **Tanggal Praktikum** | 25-09-2026 |
 
 ---
 
@@ -51,7 +51,7 @@ $ make
 
 **Hasil**: Proses `make` akan mengompilasi seluruh kode sumber C menjadi image Xinu yaitu `xinu.elf`. Image tersebut kemudian akan disalin ke direktori TFTP agar siap di-boot oleh mesin target. Proses kompilasi ini merupakan tahapan penting karena semua program dan kernel Xinu dibangun di sini sebelum dijalankan di Backend VM.
 
-![Terminal Compile Xinu](assets/dummy.png)
+![Terminal Compile Xinu](asset/make.png)
 
 *Gambar 1: Proses kompilasi source code Xinu menggunakan perintah `make` pada Development-System VM.*
 
@@ -66,7 +66,7 @@ Tahapan yang terjadi adalah:
 
 Proses ini menunjukkan bahwa perangkat target tidak memerlukan media penyimpanan lokal untuk menjalankan sistem operasi, karena semua file boot diambil dari jaringan.
 
-![Booting Backend VM](assets/dummy.png)
+![Booting Backend VM](asset/xinu5.jpg)
 
 *Gambar 2: Tampilan Backend VM saat melakukan booting melalui jaringan (PXE) dan memuat GRUB.*
 
@@ -85,7 +85,7 @@ xinurocks
 
 **Hasil**: Terminal Development-System terhubung langsung ke console Xinu di Backend VM. Prompt berubah dari format Linux biasa menjadi `xsh$`, yang menandakan bahwa praktikan sudah masuk ke shell Xinu.
 
-![Koneksi Minicom](assets/dummy.png)
+![Koneksi Minicom](asset/xsh.png)
 
 *Gambar 3: Koneksi berhasil melalui Minicom, ditandai dengan munculnya prompt `xsh$`.*
 
@@ -100,7 +100,7 @@ Hasil dari perintah ini menampilkan berbagai command dasar seperti perintah untu
 
 Selain itu, praktikan juga mencoba perintah seperti `ls`, `cd`, dan beberapa perintah dasar lainnya untuk memahami struktur file dan mekanisme navigasi shell Xinu.
 
-![Perintah Help Xinu](assets/dummy.png)
+![Perintah Help Xinu](asset/help.png)
 
 *Gambar 4: Output dari perintah `help` yang menampilkan daftar command bawaan Xinu OS.*
 
